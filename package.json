@@ -1,0 +1,20 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "Following a tutorial from blog \"https://www.valentinog.com/blog/webpack-tutorial/#webpack_4_as_a_zero_configuration_module_bundler\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --mode production",
+    "dev":"webpack --mode development"
+
+  },
+  "author": "Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.25.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
